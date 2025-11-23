@@ -1,0 +1,1 @@
+This project is my Personal Portfolio Website, created as part of my web development assignment. It showcases my profile, skills, projects, and contact information in a clean and user-friendly layout. The goal of this assignment is to design a simple yet attractive website using HTML and External CSS to demonstrate web design fundamentals and styling techniques. 
