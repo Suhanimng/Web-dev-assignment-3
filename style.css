@@ -1,0 +1,145 @@
+/* GLOBAL */
+body {
+    font-family: Arial, sans-serif;
+    background: #f1f1f1;
+    margin: 0;
+}
+
+/* NAVBAR */
+.navbar {
+    background: #0b4fa8;
+    color: white;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar a {
+    color: white;
+    margin-left: 25px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* HERO SECTION */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 50px;
+    align-items: center;
+    background: white;
+}
+
+.hero-img {
+    width: 180px;
+    height: 180px;
+    border-radius: 0;
+    border: none;
+}
+
+/* Animated text removed for clean screenshot look */
+.animated-text {
+    font-size: 28px;
+    font-weight: bold;
+    color: #ff6f47;
+}
+
+/* SECTIONS */
+section {
+    background: white;
+    margin-top: 10px;
+    padding: 40px 50px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+/* SKILLS SECTION (3 boxes stretched across full page) */
+.skills-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.skill-card {
+    background: #0b4fa8;
+    color: white;
+    width: 30%;
+    padding: 25px;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* PROJECTS SECTION */
+.projects-wrapper {
+    display: block;
+}
+
+
+.project-card {
+    background: #e0e0e0;
+    width: 50%;          /* reduce width */
+    padding: 15px;       /* reduce padding so the box is smaller */
+    margin: 20px auto;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.project-card img {
+    width: 35%;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+
+/* CONTACT FORM (centered) */
+#contact {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-form {
+    width: 280px;
+    background: white;
+    padding: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid gray;
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 10px;
+    background: #0b4fa8;
+    color: white;
+    border: none;
+}
+
+/* FOOTER */
+footer {
+    background: #0b4fa8;
+    color: white;
+    padding: 15px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* BACK TO TOP BUTTON */
+.back-to-top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    background: #0b4fa8;
+    padding: 12px 16px;
+    color: white;
+    border-radius: 50%;
+    text-decoration: none;
+}
